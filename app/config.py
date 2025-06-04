@@ -5,7 +5,7 @@ from pathlib import Path
 
 class Settings(BaseSettings):
     # LLM Settings
-    GEMINI_API_KEY: str ="AIzaSyC6OLFvpv1YS28BSUkEnP12n8m3s6TH4B8"  
+    GEMINI_API_KEY: str ="AIzaSyBVe2VHlv9NcogJzZAm8b_zkNPkwDsn-n8"  
     EMBEDDING_MODEL_NAME: str = "text-embedding-004"
 
     # Paths
