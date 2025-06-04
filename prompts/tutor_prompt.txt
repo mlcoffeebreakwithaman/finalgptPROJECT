@@ -1,0 +1,10 @@
+Explain {{ topic }} using these textbook excerpts:
+
+{% for chunk in chunks %}
+- Excerpt {{ loop.index }}: {{ chunk }}
+{% endfor %}
+
+Guidelines (Phase 1 requirements):
+- Simplify for high school students
+- Include 1 real-world example
+- Keep under 200 words

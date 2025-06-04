@@ -1,0 +1,84 @@
+# 🚀 Core Dependencies
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+
+# 🤖 AI/ML Components
+# Core AI Processing
+google-generativeai>=0.3.2  # Primary LLM interface
+langchain                    # Utilities
+langchain-openai             
+langchain-community          # FAISS integration
+langchainhub
+langgraph
+langchain_huggingface
+
+# Embeddings & Vector Stores
+sentence-transformers        # Local embeddings
+faiss-cpu                    # Vector similarity search
+# milvus                     # Future alternative
+
+# 📄 Document Processing
+# PDF Handling
+pdfplumber
+pymupdf
+pypdf
+pypdf2                       # Note: Correct name is PyPDF2?
+# Web/Text Processing
+beautifulsoup4
+tika
+regex
+unidecode
+reportlab                    # PDF generation
+nltk                         # NLP utilities
+
+# 🛠️ Utilities
+# Data Handling
+pandas
+numpy
+scikit-learn
+# Configuration
+pyyaml
+yamllint
+# Async
+aiofiles
+aiohttp
+# Security
+python-jose
+# Monitoring
+psutil
+prometheus-client
+# Web
+websockets                   # Future WebSocket support
+fastapi-cors
+python-multipart
+# Rate Limiting
+slowapi
+fastapi-limiter              # Alternative rate limiting
+# Database (Future)
+SQLAlchemy
+psycopg2-binary
+# Observability (Future)
+opentelemetry-api
+opentelemetry-sdk
+
+# 📊 Dev & Testing
+# Development
+ipython
+jupyter
+rich                         # Enhanced console output
+# Testing
+pytest
+# Experiment Tracking
+mlflow
+
+# 📝 Templates
+jinja2
+
+# 🔄 Note: Removed duplicates:
+# - python-dotenv (appears once now)
+# - faiss-cpu (appears once now)
+# - google-generativeai (appears once with version constraint)

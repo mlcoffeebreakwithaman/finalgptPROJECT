@@ -1,0 +1,18 @@
+Generate 3 MCQs about {{ topic }} using this context:
+
+{% for chunk in chunks %}
+{{ chunk }}
+{% endfor %}
+
+Format (Phase 1 requirement):
+```json
+{
+  "questions": [
+    {
+      "question": "...",
+      "options": ["...", "...", "..."],
+      "correct_index": 0,
+      "explanation": "..."
+    }
+  ]
+}
